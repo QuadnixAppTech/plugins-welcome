@@ -1,0 +1,21 @@
+version: 0.2
+
+env:
+  variables:
+    NAME: "pots-welcome"
+    EMAIL: "support@quadnix.com"
+
+phases:
+  install:
+    commands:
+      - echo Build started on `date`
+  pre_build:
+    commands:
+      - "echo Name is: $NAME"
+      - "echo Email is: $EMAIL"
+  build:
+    commands:
+      - npm install
+  post_build:
+    commands:
+      - echo Build completed on `date`
