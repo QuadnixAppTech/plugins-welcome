@@ -1,11 +1,11 @@
 {
   "author": "Rahul Chaudhary",
-  "description": "Quadnix Plugins Welcome Plugin",
-  "name": "welcome-html-plugin",
+  "description": "Welcome to Plugins by Quadnix.",
+  "name": "plugins-welcome",
   "private": true,
   "version": "0.0.1",
   "dependencies": {
-    "bootstrap": "3.3.7",
+    "bootstrap": "~3.3.7",
     "jquery": "~3.3.1"
   }
 }

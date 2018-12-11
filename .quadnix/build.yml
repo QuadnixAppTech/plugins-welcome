@@ -2,7 +2,7 @@ version: 0.1
 
 env:
   variables:
-    NAME: "pots-welcome"
+    NAME: "plugins-welcome"
     VERSION: "v0.0.1"
 
 phases:
